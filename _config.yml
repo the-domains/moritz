@@ -1,28 +1,40 @@
-name: moritz
-favicon: null
-layout_spectrum: 0.19627
-typography_spectrum: 0.25439
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+color:
+  saturation: 0.6875
+  brandStrength: 0.5
+  lightness: 0.625
+  brandColors:
+    - '#ABA99D'
+    - '#CACCBF'
+    - '#4B443E'
+    - '#736C66'
+    - '#EAEBE3'
+  rhythmicContrast: 0.25
 cta:
-  domain: null
   bucket: null
   version: null
+  domain: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
+favicon: null
+name: moritz
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#71A7FE'
-    - '#399AE7'
-    - '#3B407C'
-    - '#547AB1'
-    - '#CEAFC0'
-  brandStrength: 0.5
-  lightness: 0.625
-  saturation: 0.6875
-  rhythmicContrast: 0.25
-purpose: []
+typography_spectrum: 0.25439
+layout_spectrum: 0.19627
